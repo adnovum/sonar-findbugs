@@ -31,3 +31,6 @@ Thumbs.db
 Desktop.ini
 #jenv
 .java-version
+
+# Dev env
+config/

@@ -7,6 +7,9 @@
 
 This plugin requires the [SonarJava Plugin](https://docs.sonarqube.org/display/PLUG/SonarJava), and uses [SpotBugs](https://spotbugs.github.io), [fb-contrib](http://fb-contrib.sourceforge.net/) and [Find Security Bugs](http://h3xstream.github.io/find-sec-bugs/) to provide coding rules.
 
+## Fork information
+
+This fork includes the PR for the `sonar.findbugs.enabled` flag.
 
 ## Usage
 
@@ -23,6 +26,7 @@ This plugin can be configured with sonar web interface (see General/Java section
 
 **Timeout** (sonar.findbugs.timeout): Specifies the amount of time, in milliseconds, that FindBugs may run before it is assumed to be hung and is terminated. The default is 600,000 milliseconds, which is ten minutes.
 
+**Enabled** (sonar.findbugs.enabled): If set to `false`, the FindBugs analysis is skipped completely. Default is `true`.
 
 ### Compiled code
 
